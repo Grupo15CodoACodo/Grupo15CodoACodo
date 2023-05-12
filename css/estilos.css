@@ -4,8 +4,8 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
-	background-image: url(/img/fondo-conexion-red_23-2148879892.avif);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-image: url(/img/fondo-conexion-red_23-2148879892.jpg);
 	background-size: cover;
 	color:white;
 	
@@ -26,6 +26,91 @@ body {
 	position: relative;
 	
 }
+
+-------/*CONTENIDO INDEX*/---------
+.section{
+	float: right;
+	width: 750px;
+	height: 400px;
+}
+
+.titulo_principal{
+	color: #fff;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 500%;
+    text-align: center;
+}
+
+.contenido{
+	color: #fff;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: large
+		
+}
+
+------------/*FOOTER*/---------
+
+footer{
+	bottom: 0;
+	display: contents;
+	position: absolute;
+	width: 100%;
+	height: 20px;	
+}
+
+footer span{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: larger;
+}
+footer .trademark{
+	margin: 0;
+	bottom: 0;
+	text-align: left;
+	font-family: Georgia, 'Times New Roman', Times, serif;	
+}
+
+.social{
+   padding: 2rem;
+   margin: 0;	
+   height: 40px;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   min-width: 700px;
+   display:inline-flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+.social ul li {
+	display: inline-table;
+	padding: 0 10px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	list-style: none;
+	box-decoration-break: clone;
+	font-size: 40px;
+	box-shadow: 0 3px 5px 0px hsl(0, 0%, 3%);
+	transition: .1s;	
+	border-radius: 100%;
+}
+
+.social ul:hover{
+	filter: blur(0.5px);
+}
+
+.social ul li:hover{
+	transform: translateY(-3px) scale(1.05);
+	box-shadow: 0 5px 5px 0px hsl(0, 0%, 3%);
+}
+
+.social ul li:active {
+	background-color: #0075FF;
+}
+
+-------------/*----*/------------
 
 .checkbox, .icons {
 	width: 36px;
