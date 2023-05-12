@@ -39,11 +39,29 @@
 
 	<main>
 		<form action="" class="formulario" id="formulario">
+			<div class="contacto_descripcion">
+				<h1 class="contacto_titulo">Contacto</h1><br><br>
+				<h4>Somos Grupo 15 realizamos Desarrollo Web, Diseño Grafico y mucho más. Completa el formulario y nos pondremos en contacto a la brevedad. Muchas Gracias.</h4>
+			</div>
+			<div class="cont">
+				<h4><u>Dirección:</u></h4>
+				<br>
+				<h3>Cabildo 1440. CABA</h3>
+				<br>
+				<h4 class="direccion"><u>Mail:</u></h4>
+				<br>
+				<h3>grupo15@gmail.com</h3>
+				<br>
+				<h4 class="telefono"><u>Teléfono:</u></h4>
+				<br>
+				<h3>011 236541254</h3>
+				
+			</div>
 			<!-- Grupo: Usuario -->
 			<div class="formulario__grupo" id="grupo__usuario">
 				<label for="usuario" class="formulario__label">Apellido</label>
 				<div class="formulario__grupo-input">
-					<input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="Doe">
+					<input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="Perez">
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
@@ -53,7 +71,7 @@
 			<div class="formulario__grupo" id="grupo__nombre">
 				<label for="nombre" class="formulario__label">Nombre</label>
 				<div class="formulario__grupo-input">
-					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="John">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Juan">
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
@@ -78,18 +96,19 @@
 				</div>
 				<p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
 			</div>
-			<!--<div class="comentario">
+			<div class="comentario">
 				<label for="comentario" class="formulario__label">Comentario</label>
-				<textarea name="area" id="text" cols="50" rows="10">Consulta</textarea>
-			</div>-->
+				<textarea name="area" id="text" cols="40" rows="10">Consulta</textarea>
+			</div>
+			
 
 			<!-- Grupo: Terminos y Condiciones -->
-			<div class="formulario__grupo" id="grupo__terminos">
+			<!-- <div class="formulario__grupo" id="grupo__terminos">
 				<label class="formulario__label">
 					<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
 					Acepto los Terminos y Condiciones
 				</label>
-			</div>
+			</div> -->
 
 			<div class="formulario__mensaje" id="formulario__mensaje">
 				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
@@ -102,7 +121,7 @@
 		</form>
 	</main>
 
-	<footer class="footer">
+	<!-- <footer class="footer">
 		<div class="container">
 			<div class="footer-row">
 				<div class="footer-link">
@@ -133,10 +152,9 @@
 
 
 
-	</footer>
+	</footer> -->
 
-	<script src="js/formulario.js"></script>
-	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
 
 	<footer>
         <div class="social">
@@ -151,5 +169,8 @@
                 <p>&copy; 2023 Todos los derechos reservados</p>
             </div>      
     </footer>
+	<script src="/js/formulario.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	
 </body>
 </html>
