@@ -24,8 +24,12 @@ body {
 	top: 0;
 	left: 0;
 	
+	
 }
 
+.nav img {
+	margin-left: 50px;
+}
 
 
 .checkbox, .icons {
@@ -80,7 +84,7 @@ body {
 	color: inherit;
 	background-color: #124886;
 	display: block;
-	padding: 10px 12px;
+	padding: 10px 40px;
 }
 
 .menu li a:hover {
@@ -175,12 +179,40 @@ main {
 }
 
 .contacto_titulo {
-	padding: 0 0 0 40%;
+	/* padding: 0 0 0 40%; */
+	text-align: center;
+	color: #78aeeb;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 300%;
+}
+
+.contacto_datos_descripcion {
+	color: #78aeeb;
+	text-align:justify;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: large;
+
 }
 
 .cont {
 	grid-row: 3/6;
 }
+
+.contacto_datos {
+	color: #78aeeb;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: large;
+}
+
+.contacto_datos_items{
+	color:rgb(126, 188, 64);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size:small;
+	padding-left: 20px;
+
+}
+
+
 
 .formulario__grupo, .comentario {
 	
@@ -230,6 +262,7 @@ main {
 	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
 
 }
+
 
 .formulario__input-error {
 	font-size: 12px;
