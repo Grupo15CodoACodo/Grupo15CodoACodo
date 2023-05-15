@@ -5,8 +5,9 @@
 }
 
 body {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	background-image: url(/img/fondo-conexion-red_23-2148879892.avif);
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	background-image: url(/Grupo15CodoACodo/img/fondo-conexion-red_23-2148879892.avif);
 	background-size: cover;
 	color:white;
 	display: flex;
@@ -23,8 +24,43 @@ body {
 	width: 100%;
 	top: 0;
 	left: 0;
-	
-	
+		
+}
+
+
+-------/*CONTENIDO INDEX*/---------
+
+.index{
+	float: right;
+	width: 100vh;
+	height: 100vh;
+	position: relative;
+}
+
+.bienvenida{
+	display: block;
+	justify-content: center;
+	justify-items: center;
+	text-align: center;
+ }
+
+.titulo_principal{
+	color: #fff;
+	margin-top: 30%;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 250%;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+}	
+
+.contenido{
+	position: relative;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-size: large
 }
 
 /* .nav img {
@@ -196,7 +232,8 @@ main {
 	font-style: italic;
 	text-decoration: underline;
 	color: #78aeeb;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 300%;
 }
 
@@ -204,7 +241,8 @@ main {
 	color: #78aeeb;
 	font-style: italic;
 	text-align:justify;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: medium;
 
 }
@@ -217,13 +255,15 @@ main {
 	color: #78aeeb;
 	font-style: italic;
 	text-decoration: underline;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: large;
 }
 
 .contacto_datos_items{
 	color:rgb(126, 188, 64);
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size:small;
 	padding-left: 20px;
 
@@ -418,41 +458,22 @@ main {
 
 
 
--------/*CONTENIDO INDEX*/---------
-.section{
-	float: right;
-	width: 750px;
-	height: 400px;
-}
-
-.titulo_principal{
-	color: #fff;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: 500%;
-    text-align: center;
-}
-
-.contenido{
-	color: #fff;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: large
-		
-}
 
 ------------/*FOOTER*/---------
 
 footer{
-
 	bottom: 0;
-	display: contents;
-	position: absolute;
+	left: 0;
+	display: block;
+	position: fixed;
 	width: 100%;
-	height: 20px;	
+	height: 80px;	
 
 }
 
 footer span{
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: larger;
 }
 footer .trademark{
@@ -460,21 +481,26 @@ footer .trademark{
 	padding-left: 40px;
 	bottom: 0;
 	text-align: left;
-	font-family: Georgia, 'Times New Roman', Times, serif;	
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	
 }
 
 .social{
    padding: 2rem;
    margin: 0;	
    height: 40px;
-   position: fixed;
+   position: relative;
    bottom: 0;
+   left: 0;
+   right: 0;
    width: 100%;
-   min-width: 700px;
+   min-width: 100vh;
    display:inline-flex;
    justify-content: center;
    align-items: center;
-   background-color: #49488d;
+   background-color: #2c14a6;
+   
    
    
 }
