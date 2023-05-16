@@ -69,12 +69,9 @@ hr {
 	font-size: large
 }
 
-/* .nav img {
-	margin-left: 50px;
 
-} */
 
-.pr {
+.nav_titulo {
 	display: inline;
 	position:absolute;
 	right: 800px;
@@ -175,49 +172,6 @@ hr {
 }
 
 
-@media (min-width: 800px) {
-	.checkbox, .fi-br-menu-burger, .fi-br-cross {
-		display: none;
-	}
-
-	
-	.menu {
-		position: fixed;
-		opacity: 1;
-		top: 20px;
-		z-index: -2;
-		width: unset;
-		display: flex;
-		right: 80px;
-		
-
-	}
-
-	
-
-
-	.menu li a {
-		background-color: #2c14a6;
-		padding: 10 20px 6px;
-	}
-
-	
-
-	.menu li a:hover {
-		background-color: #265d9c;
-	}
-
-}
-
-/* @media (max-width: 768px) {
-	.nav-menu {
-		display: none;
-
-	} 
-
-
-
-} */
 
 main {
 	max-width: 800px;
@@ -233,7 +187,7 @@ main {
 }
 
 .contacto_titulo {
-	/* padding: 0 0 0 40%; */
+
 	text-align: center;
 	font-style: italic;
 	text-decoration: underline;
@@ -302,10 +256,6 @@ main {
 
 }
 
-/* .formulario__grupo-input {
-	position: relative;
-
-} */
 
 .formulario__input {
 
@@ -343,7 +293,6 @@ main {
 .formulario__validacion-estado {
 
 	position: relative;
-	/* right: 30px; */
 	left: 400px;
 	bottom: 25px;
 	z-index: 100;
@@ -388,7 +337,7 @@ main {
 	height: 45px;
 	line-height: 45px;
 	width: 30%;
-	margin-left: 400px;
+	margin-left: 350px;
 	background: #6563e0;
 	color: #150746;
 	font-weight: bold;
@@ -434,11 +383,71 @@ main {
 }
 
 
+@media (min-width: 800px) {
+	.checkbox, .fi-br-menu-burger, .fi-br-cross {
+		display: none;
+	}
+
+	
+	.menu {
+		position: fixed;
+		opacity: 1;
+		top: 20px;
+		z-index: -2;
+		width: unset;
+		display: flex;
+		right: 80px;
+		
+
+	}
+
+	.menu li a {
+		background-color: #2c14a6;
+		padding: 10 20px 6px;
+	}
+
+	
+
+	.menu li a:hover {
+		background-color: #265d9c;
+	}
+
+	
+
+}
+
+
+@media (max-width: 1170px) {
+
+	.nav_titulo {
+		font-size: large;
+		right: 700px;
+		/* padding: 30px 0 0 0px; */
+
+	}
+
+
+}
+
+
+@media (max-width: 1050px) {
+
+	.nav_titulo {
+		display: none;
+		/* padding: 30px 0 0 0px; */
+
+	}
+
+
+}
+
+
+
 /* ----- -----  Mediaqueries ----- ----- */
 @media screen and (max-width: 800px) {
 	.formulario {
 		/* grid-template-columns: 1fr; */
-		grid-template-columns: 350px;
+		grid-template-columns: 400px;
 
 	}
 
@@ -460,7 +469,17 @@ main {
 		margin-left: 0;
 		width: 60%;
 	}
+
+	.nav_titulo {
+		display: inline;
+		right: 150px;
+		padding: 30px 0 0 auto;
+
+	}
 }
+
+
+
 
 
 
@@ -505,7 +524,7 @@ footer .trademark{
    display:inline-flex;
    justify-content: center;
    align-items: center;
-   background-color: #2c14a6;
+   background-color: #6445fa;
    
    
    
