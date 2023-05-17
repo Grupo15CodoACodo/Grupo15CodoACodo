@@ -506,6 +506,7 @@ footer{
 	display: flex;
 	flex-direction: column;
 	padding: 10px;
+
   }
   
   .box_footer .logo img{
@@ -524,17 +525,20 @@ footer{
 	margin-bottom: 30px;
 	color:rgb(95, 92, 92);
 	font-weight: 700;
+
   }
   
   .box_footer a{
 	text-decoration: none;
 	margin-top: 10px;
-	color:rgb(95, 92, 92);
+	color:rgb(165, 162, 169);
 	font-weight: 600;
+	font-size:small;
+	padding-left: 20px;
   }
   
   .box_footer a:hover{
-	opacity: 0.8;
+	opacity: 0.5;
   }
   
   .box_footer a .fa-brands{
@@ -551,4 +555,11 @@ footer{
   .box_copyright{
 	margin-top: 20px;
 	color:rgb(95, 92, 92);
+  }
+
+  .separador {
+
+	margin: 0 50px;
+
+
   }
