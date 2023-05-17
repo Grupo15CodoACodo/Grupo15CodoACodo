@@ -522,8 +522,8 @@ footer{
 	max-width: 350px;
 	margin-top: 20px;
 	font-weight: 500;
-	color:rgb(95, 92, 92);
-	font-size: 18px;
+	color:rgb(165, 162, 169);
+	font-size: 15px;
   }
   
   .box_footer h2{
@@ -564,7 +564,7 @@ footer{
 
   .separador {
 
-	margin: 0 50px;
+	margin: 0 150px;
 
 
   }
