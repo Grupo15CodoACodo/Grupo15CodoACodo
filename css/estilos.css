@@ -527,6 +527,7 @@ footer{
   }
   
   .box_footer a{
+	text-decoration: none;
 	margin-top: 10px;
 	color:rgb(95, 92, 92);
 	font-weight: 600;
