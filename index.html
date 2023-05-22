@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Formulario de Contacto</title>
+	<title>Home</title>
 	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
 	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
@@ -11,37 +11,38 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 	<script src="https://kit.fontawesome.com/5c8fed1b78.js" crossorigin="anonymous"></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
 	<link rel="icon" type="image/x-icon" href="../img/icono_logo15.ico">
 </head>
 
 <body>
 	<header>
-        <nav class="nav">
-			
-			<img src="/img/icono_logo15.ico" width="100" height="80" alt="">
-			<input class="checkbox" type="checkbox">
-			<i class="icons fi fi-br-menu-burger"></i>
-			<i class="icons fi fi-br-cross"></i>
-            <ul class="menu">
-                <li class="nav-menu-item">
-                    <a href="/pages/servicios.html">Servicios</a>
-                </li>
-                <li class="nav-menu-item">
-                    <a href="/pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-menu-item">
-                    <a href="/pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+
+          <img src="/img/logo15.png" class="logo1" alt="">
+      
+          <input type="checkbox" id="menu-check">
+          <label for="menu-check" class="menu">
+          <span class="menu-abrir">&#9776;</span>
+          <span class="menu-cerrar">X</span>
+          </label>
+
+          <nav class="navbar">
+              <ul>
+                  <li><a href="/index.html" style="--i:1;"  class="active">Inicio</a></li>
+                  <li><a href="/pages/servicios.html" style="--i:2;">Servicios</a></li>
+                  <li><a href="/pages/nosotros.html" style="--i:3;">Nosotros</a></li>
+                  <li><a href="/pages/contacto.html" style="--i:4;">Contacto</a></li>
+              </ul>      
+      </nav>
+
+
+  </header>
 
     <div class="container">
     <main class="container_index">
         <section class="container_section">
-            <article>
-            <h1>Grupo15, especialistas en desarollo Web.</h1>
+            <article class="article_index">
+            <h1>Somos <span class="multiple-text"></span></h1>
             <p>En Grupo15 brindamos servicio de diseño web premium.
                Desarrollamos páginas web de alto impacto apuntadas a maximizar resultados.
                Somos especialistas en generar soluciones a medida y diseño personalizado para cada cliente.</p>
@@ -94,5 +95,10 @@
             <b>Grupo15</b>
            </div>
     </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="/js/animaciones.js"></script>
+    
+
 </body>
 </html>
