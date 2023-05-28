@@ -264,6 +264,23 @@ article p {
 
 /*NOSOTROS*/
 
+.nosotros h1 {
+	text-transform: uppercase ;
+	text-align: center;
+}
+
+.nosotros p {
+	text-align: center;
+}
+
+.nosotros a {
+	color: #b7e8f6;
+}
+
+.nosotros a:hover {
+	color: #ec1681;
+}
+
 #map { 
 	margin: auto;
 	justify-content: center;
