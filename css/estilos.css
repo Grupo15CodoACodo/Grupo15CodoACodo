@@ -9,6 +9,7 @@ body {
 	background-image: url(/img/Fondo-General.jpg);
 	background-size: cover;
 	color:rgb(255, 255, 255);
+	height: 100vh;
 }
 
 /*HEADER*/
@@ -259,6 +260,26 @@ article p {
 	animation: slideRight 1s ease forwards;
 	animation-delay: 1s;
 }
+
+
+/*NOSOTROS*/
+
+#map { 
+	margin: auto;
+	justify-content: center;
+	justify-items: center;
+	height: 30%;
+	width: 30%;
+ }
+
+
+ @media (max-width: 700px) {
+	#map{
+		width: auto;
+		height: 50%;
+		z-index: 0;
+	}
+ }
 
 /*CONTACTO*/
 

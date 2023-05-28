@@ -13,6 +13,9 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
 	<link rel="icon" type="image/x-icon" href="../img/icono_logo15.ico">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
 </head>
 
 <body>
@@ -45,6 +48,10 @@
         
     </main>
 
+
+    <div id="map"></div>
+
+
     <footer>
         <hr class="separador">
          <div class="container_footer">
@@ -59,13 +66,6 @@
                    <p>Mail: grupo15@gmail.com</p> 
                    <p>Teléfono: 011 236541254</p>                   
                  </div>
-               </div>
-               <div  class="box_footer">
-                 <h2>Soluciones</h2>
-                 <a href="#">App Desarrollo</a>
-                 <a href="#">App Marketing</a>
-                 <a href="#">IOS Desarrollo</a>
-                 <a href="#">Android Desarrollo</a>
                </div>
                <div  class="box_footer">
                  <h2>Compañia</h2>
@@ -88,6 +88,12 @@
              <p>&copy; 2023 Todos los derechos reservados</p>
              <b>Grupo15</b>
             </div>
+
+            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+            <script src="/js/mapa.js"></script>
+
      </footer>
 </body>
 </html>
