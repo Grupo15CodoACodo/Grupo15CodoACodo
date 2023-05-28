@@ -9,7 +9,8 @@ body {
 	background-image: url(/img/Fondo-General.jpg);
 	background-size: cover;
 	color:rgb(255, 255, 255);
-	height: 100vh;
+	height: 100%;
+	width: 100%;
 }
 
 /*HEADER*/
@@ -175,6 +176,9 @@ nav a {
 		
 	}
 
+	body {
+		
+	}
 
 }
 /*---------*/
@@ -607,6 +611,8 @@ main {
 
 
 /* ----- -----  Mediaqueries ----- ----- */
+
+
 
 @media screen and (max-width: 970px){
 
