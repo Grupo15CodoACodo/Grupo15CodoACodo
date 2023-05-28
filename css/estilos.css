@@ -187,8 +187,8 @@ hr {
 }
 
 .video {
-
 	width: 90%;
+	
 }
 
 .nav_titulo {
@@ -214,6 +214,7 @@ hr {
 
 
 /*CONTENIDO INDEX*/
+
 
 .container{
 	max-width: 1200px;
@@ -270,10 +271,18 @@ article p {
 .nosotros h1 {
 	text-transform: uppercase ;
 	text-align: center;
+	transition: .3s;
+	opacity: 0;
+	animation: slideBottom .5s ease forwards;
+	animation-delay: calc(.2s * var(0));
 }
 
 .nosotros p {
 	text-align: center;
+	transition: .3s;
+	opacity: 0;
+	animation: slideLeft .5s ease forwards;
+	animation-delay: calc(.2s * var(0));
 }
 
 .nosotros a {
@@ -290,6 +299,10 @@ article p {
 	justify-items: center;
 	height: 30%;
 	width: 30%;
+	transition: .3s;
+	opacity: 0;
+	animation: slideRight .5s ease forwards;
+	animation-delay: calc(.2s * var(0));
  }
 
 
@@ -332,6 +345,10 @@ main {
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 300%;
+	transition: .3s;
+	opacity: 0;
+	animation: slideBottom .5s ease forwards;
+	animation-delay: calc(.2s * var(0));
 }
 
 .contacto_datos_descripcion {
@@ -341,6 +358,10 @@ main {
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Roboto Mono', monospace;
 	font-size: medium;
+	transition: .3s;
+	opacity: 0;
+	animation: slideLeft .5s ease forwards;
+	animation-delay: calc(.2s * var(0));
 
 }
 
@@ -355,6 +376,7 @@ main {
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Roboto Mono', monospace;
 	font-size: large;
+
 }
 
 .contacto_datos_items{
@@ -363,7 +385,7 @@ main {
 	font-family: 'Roboto Mono', monospace;
 	font-size:small;
 	padding-left: 20px;
-
+	
 }
 
 /*FORMULARIO*/
@@ -380,6 +402,10 @@ main {
 	margin: 50px 0 0 0;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
+	transition: .3s;
+	opacity: 0;
+	animation: slideLeft .5s ease forwards;
+	animation-delay: calc(.2s * var(0));
 
 }
 
@@ -523,6 +549,17 @@ main {
 
 
 /*KEYFRAMES ANIMACIONES*/
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 @keyframes slideTop {
     0% {
@@ -706,7 +743,36 @@ footer{
 
 /* Servicios */
 
+.servicios h2 {
+	text-transform: uppercase;
+	transition: .3s;
+	opacity: 0;
+	animation: slideBottom .5s ease forwards;
+	animation-delay: calc(.2s * var(0));
+}
+
+.servicios h3 {
+	transition: .3s;
+	opacity: 0;
+	animation: slideRight .5s ease forwards;
+	animation-delay: calc(.2s * var(0));
+}
+
 .servicios span {
+	transition: .3s;
+	opacity: 0;
+	animation: slideLeft .5s ease forwards;
+	animation-delay: calc(.2s * var(0));
+}
+
+.servicios span {
+	justify-content: center;
+	text-align: center;
 	color: #78aeeb
 }
 
+.servicios {
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 20px;
+}
