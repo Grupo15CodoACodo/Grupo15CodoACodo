@@ -264,6 +264,9 @@ article p {
 
 /*NOSOTROS*/
 
+.nosotros {
+	padding: 100px;
+}
 .nosotros h1 {
 	text-transform: uppercase ;
 	text-align: center;
@@ -295,6 +298,13 @@ article p {
 		width: auto;
 		height: 50%;
 		z-index: 0;
+	}
+
+	.servicios {
+		width: auto;
+		height: auto;
+		z-index: 0;
+		text-align: center;
 	}
  }
 
@@ -699,3 +709,4 @@ footer{
 .servicios span {
 	color: #78aeeb
 }
+
