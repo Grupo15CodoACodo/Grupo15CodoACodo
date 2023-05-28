@@ -221,10 +221,17 @@ hr {
 	width: 100%;
 	padding: 45px 45px;
 	margin: 0 auto;
-	margin-top: 250px;
-	margin-bottom: 250px;
+	margin-top: 30px;
+	margin-bottom: 50px;
 
 }
+
+.imagen {
+		display: block;
+		margin: auto;
+	
+		
+	  }
 
 .container_index{
 	text-align: center;
