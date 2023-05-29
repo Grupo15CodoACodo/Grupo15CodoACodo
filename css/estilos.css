@@ -557,22 +557,24 @@ footer{
 	animation-delay: calc(.2s * var(0));
 }
 
-.servicios span {
+.servicios p {
 	transition: .3s;
 	opacity: 0;
 	animation: slideLeft .5s ease forwards;
 	animation-delay: calc(.2s * var(0));
 }
 
-.servicios span {
+.servicios p {
 	justify-content: center;
 	text-align: center;
-	color: #78aeeb
+	color: #78aeeb;
+	padding-bottom: 40px;
+	
 }
 
 .servicios {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 30px;
 	padding-bottom: 20px;
 }
 
